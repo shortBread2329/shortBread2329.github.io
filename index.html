@@ -19,9 +19,9 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#one">ページタイトル</a></li>
-							<li><a href="#two">ポートフォリオ</a></li>
-							<li><a href="#three">プロフィール</a></li>
+							<li><a href="#intro">ページタイトル</a></li>
+							<li><a href="#one">ポートフォリオ</a></li>
+							<li><a href="#two">コンタクト</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -30,19 +30,19 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- one -->
-					<section id="one" class="wrapper style1 fullscreen fade-up">
+				<!-- intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Welcome to ShortBread's Engineers Portfolio</h1>
 							<p>ようこそShortBreadのエンジニアポートフォリオサイトへ</p>
 							<ul class="actions">
-								<li><a href="#two" class="button scrolly">Learn more</a></li>
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fullscreen fade-up">
+				<!-- one -->
+					<section id="one" class="wrapper style3 fullscreen fade-up">
 						<div class="inner">
 							<h2>ポートフォリオ</h2>
 							<p>今までプログラミングをしてきたものの一部をポートフォリオとして公開しています。</p>
@@ -61,17 +61,38 @@
 								</section>
 							</div>
 							<ul class="actions">
-								<li><a href="#three" class="button scrolly">Learn more</a></li>
+								<li><a href="#two" class="button scrolly">Learn more</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fullscreen fade-up">
+				<!-- two -->
+					<section id="two" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h2>プロフィール</h2>
+							<h2>コンタクト</h2>
 							<p></p>
 							<div class="split style1">
+								<section>
+									<form method="post" action="mailto:shortBread2329@outlook.jp">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">あなたのお名前</label>
+												<input type="text" name="name" id="name">
+											</div>
+											<div class="field half">
+												<label for="email">あなたのメールアドレス</label>
+												<input type="text" name="email" id="email">
+											</div>
+											<div class="field">
+												<label for="message">メッセージ</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">メールソフトを起動します。</a></li>
+										</ul>
+									</form>
+								</section>
 								<section>
 									<ul class="contact">
 										<li>
@@ -100,7 +121,7 @@
 
 			</div>
 
-		<!-- Footer -->
+			<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
@@ -110,8 +131,8 @@
 					</ul>
 				</div>
 			</footer>
-
-		<!-- Scripts -->
+			
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>

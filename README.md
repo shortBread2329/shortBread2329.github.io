@@ -1,1 +1,2 @@
-[プレビューはこちら](https://shortbread2329.github.io)
+ここにアップロードされているものは簡易ポートフォリオサイトのソースです。
+[こちら](https://shortbread2329.github.io)からサイトへ移動できます。
